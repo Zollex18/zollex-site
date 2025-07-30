@@ -9,7 +9,7 @@ export default function Home() {
         
         <div className="flex flex-col items-center h-full ">
           <div>
-            <Link href = "_images/roaches"><Image src="/shot.jpg" alt="test image" width={1000} height={500} className="transition duration-450 hover:scale-110"/></Link>
+            <Link href = "#"><Image src="/shot.jpg" alt="test image" width={1000} height={500} className="transition duration-450 hover:scale-110"/></Link>
           </div>
         </div>
 
