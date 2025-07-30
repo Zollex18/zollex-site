@@ -28,7 +28,7 @@ export default function Roaches(){
                 <div className="flex justify-center text-3xl mt-5 w-4/6 mb-15 ">
                     <p className="text-justify">
                         Roaches is a sitcom which portrays the daily lives of two weed dealers and their naive, unlucky in love
-                        roommate as they try to navigate a society that doesn't quite understand them. It navigates themes of
+                        roommate as they try to navigate a society that doesn&apos;t quite understand them. It navigates themes of
                         consequence, love and societal attitudes using a blend of familiar sitcom frameworks and realistic perspectives,
                         leading to a fresh take on what it means for drugs to exist within a society.
                     </p>
