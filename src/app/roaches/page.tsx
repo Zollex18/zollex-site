@@ -1,6 +1,4 @@
 import { Header } from "../_components/UI/ui_components"
-import { Footer } from "../_components/UI/ui_components"
-import { PersonBanner } from "../_components/UI/ui_components"
 import Image from "next/image"
 export default function Roaches(){
     return(
@@ -38,24 +36,9 @@ export default function Roaches(){
         
 
         {/* Section for cast and crew */}
-            <div className=" border-t-1 w-3/4 flex justify-center pt-5">
-                <h1 className="text-2xl">Cast</h1>
-            </div>
-            <div className="grid grid-cols-4 grid-rows-2 pt-5 bg-white w-3/4 gap-y-10 gap-x-6">
-                
-                <PersonBanner banner={{url:"/goblin_dict.png", name:"Ollie", description: "Played by Devante Fleming"}}/>
-                <PersonBanner banner={{url:"/goblin_dict.png", name:"Dex", description: "Played by Ricardo"}}/>
-                <PersonBanner banner={{url:"/goblin_dict.png", name:"Zack", description: "Played by Jack Dowling"}}/>
-                <PersonBanner banner={{url:"/goblin_dict.png", name:"Kendall", description: "Played by Nicola Cleary"}}/>
-
-                <PersonBanner banner={{url:"/goblin_dict.png", name:"Devante Fleming", description: "Played Ollie Carling"}}/>
-                <PersonBanner banner={{url:"/goblin_dict.png", name:"Devante Fleming", description: "Played Ollie Carling"}}/>
-                <PersonBanner banner={{url:"/goblin_dict.png", name:"Devante Fleming", description: "Played Ollie Carling"}}/>
-                <PersonBanner banner={{url:"/goblin_dict.png", name:"Devante Fleming", description: "Played Ollie Carling"}}/>
-              
-            </div>
+            
         </div>
-        <Footer/>
+
         </>
     )
 }
