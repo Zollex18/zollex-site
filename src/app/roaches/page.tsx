@@ -13,7 +13,7 @@ export default function Roaches(){
                 </div>
             </div>
             <div className="flex flex-col items-center mt-10">
-                <Image src="/shot.jpg" alt="a shot from Roaches" width={1200} height={500}/>
+                <Image src="../images/shot.jpg" alt="a shot from Roaches" width={1200} height={500}/>
             </div>
 
             
